@@ -12,7 +12,7 @@ def main():
     print("5. Módulo")
     operacion = int(input("Ingrese el número de la operación: "))
     if operacion == 1:
-        # ans = suma(num1, num2)
+        ans = suma(num1, num2)
         print(f"El resultado de la suma es: {ans}")
     elif operacion == 2:
         # ans = resta(num1, num2)
