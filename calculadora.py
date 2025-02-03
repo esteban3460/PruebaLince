@@ -1,6 +1,9 @@
 #def suma(a,b):
 #	return a + b
 
+def division(a,b):
+    return a/b
+
 def main():
     ans = 0
     print("Bienvenido a la calculadora de Lince")
@@ -24,7 +27,7 @@ def main():
         # ans = multiplicacion(num1, num2)
         print(f"El resultado de la multiplicación es: {ans}")
     elif operacion == 4:
-        # ans = division(num1, num2)
+        ans = division(num1, num2)
         print(f"El resultado de la división es: {ans}")
     elif operacion == 5:
         # ans = modulo(num1, num2)
