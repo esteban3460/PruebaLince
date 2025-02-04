@@ -1,10 +1,10 @@
 def suma(a,b):
     return a + b
 
+# esto es una division 
 def division(a,b):
     return a/b
-    
-
+    #error
 def main():
     ans = 0
     print("Bienvenido a la calculadora de Lince")
